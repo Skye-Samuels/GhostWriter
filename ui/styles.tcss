@@ -1,0 +1,56 @@
+InputText {
+    width: 50%;
+    height: 100%;
+    border: round white;
+    margin: 1;
+    padding: 1;
+    overflow-y: auto;
+}
+
+OutputText {
+    width: 100%;
+}
+
+Horizontal {
+    width: 75%;
+    height: 100%;
+}
+
+VerticalScrollOutput {
+    height: 100%;
+    width: 50%;
+    border: round grey;
+    margin: 1;
+    padding: 1;
+    overflow-y: scroll;
+}
+
+DetectorResults {
+    width: auto;
+    height: 100%;
+}
+
+DetectButton {
+    dock: bottom;
+    width: 100%;
+    height: auto;
+    border: round white;
+    background: 0%;
+}
+
+Sidebar {
+    width: 25%;
+    height: 100%;
+    layout: vertical;
+    overflow-x: auto;
+    border: round grey;
+    margin: 1;
+    padding: 1;
+}
+
+Screen {
+    layout: horizontal;
+    height: 100vh; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
